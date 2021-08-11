@@ -1,0 +1,105 @@
+.carousel-item{
+	max-width: 600px;
+}
+body{
+	background-image: url(.../media/fondo.jpg);
+}
+#carouselExampleFade{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+footer{
+    grid-area: footer;
+    display: flex;
+    background-color: black;
+    height: 2em;
+    @if background-color == black {
+        color: white;
+    }
+}
+.iconMenu{
+	height: 75px;
+}
+.Menu__Posta{
+    & li{
+        animation-duration: 3s;
+        animation-name: aparecer;
+          }
+          @keyframes aparecer {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+    }
+}
+#Tabla__BC{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: auto;
+    background: rgba( 0, 0, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    & #Tabla{
+        margin: auto;
+    }  
+}
+.row {
+	margin-right: 15px !important;
+    margin-left: 15px !important;
+}
+#Jugadores{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 25px;
+    background: rgba( 0, 0, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    & #Jugadores__Cont{
+        margin: auto;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+#ImagenJugadores{
+    height: 100px;
+    padding-right: 90%
+}
+.TextoGaleria{
+    padding-left: 15%;
+}
+#noticias__BC{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 25px;
+    background: rgba( 0, 0, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    & #noticias{
+          margin: auto !important;
+        }
+}
+.Galeria{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 25px;
+    background: rgba( 0, 0, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    & img{
+        margin-top: 1em;
+    }
+}
